@@ -113,6 +113,7 @@ export function nextJsApiRouter(options: NextJsApiRouterOptions): ApiRoute {
     config: {
       api: {
         bodyParser: false,
+        externalResolver: true,
       },
     },
   };
